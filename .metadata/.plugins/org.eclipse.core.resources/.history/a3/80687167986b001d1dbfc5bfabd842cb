@@ -1,0 +1,19 @@
+
+public class ContaPoupanca {
+
+	private int agencia;
+	private int numero;
+	private double saudo;
+	
+	public void sacar() {
+		
+	}
+	
+	public void depositar() {
+		
+	}
+	
+	public void transferir() {
+		
+	}
+}

@@ -1,0 +1,6 @@
+
+public class Cliente extends Conta{
+	
+	private String nomeCliente;
+
+}

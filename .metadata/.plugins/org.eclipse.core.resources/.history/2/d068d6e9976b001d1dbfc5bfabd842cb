@@ -1,0 +1,42 @@
+
+public class ContaCorrente {
+
+	private Integer agencia;
+	private Integer numero;
+	private Double saldo;
+	
+	public ContaCorrente() {
+	}
+	
+	public ContaCorrente(Integer agencia) {
+		
+	}
+	
+	public double getSaudo() {
+		return saldo;
+	}
+
+	public void setSaudo(double saudo) {
+		this.saldo = saudo;
+	}
+
+	public int getAgencia() {
+		return agencia;
+	}
+
+	public int getNumero() {
+		return numero;
+	}
+
+	public void sacar() {
+		
+	}
+	
+	public void depositar() {
+		
+	}
+	
+	public void transferir() {
+		
+	}
+}

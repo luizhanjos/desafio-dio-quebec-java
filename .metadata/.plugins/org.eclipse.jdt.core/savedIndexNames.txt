@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+E:\Projetos\desafio-dio\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+3896761264.index
+2469789163.index

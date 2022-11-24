@@ -1,0 +1,27 @@
+
+public class Conta  implements IConta{
+
+	private Integer agencia;
+	private Integer numero;
+	private Double saldo;
+	
+	public Conta() {
+	}
+	
+	public Conta(Integer agencia, Integer numero) {
+		this.agencia = agencia;
+		this.numero = numero;
+	}
+	
+	public double getSaldo() {
+		return saldo;
+	}
+
+	public int getAgencia() {
+		return agencia;
+	}
+
+	public int getNumero() {
+		return numero;
+	}
+}

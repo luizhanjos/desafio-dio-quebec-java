@@ -1,0 +1,45 @@
+
+public abstract class Conta implements IConta{
+
+	private Integer agencia;
+	private Integer numero;
+	private Double saldo;
+	
+	public Conta() {
+	}
+	
+	public Conta(Integer agencia, Integer numero) {
+		this.agencia = agencia;
+		this.numero = numero;
+	}
+	
+	public double getSaldo() {
+		return saldo;
+	}
+
+	public int getAgencia() {
+		return agencia;
+	}
+
+	public int getNumero() {
+		return numero;
+	}
+
+	@Override
+	public void sacar(Double valor) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void depositar(Double valor) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void transferir(Double valor, Conta contaDestino) {
+		// TODO Auto-generated method stub
+		
+	}
+}

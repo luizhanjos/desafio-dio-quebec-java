@@ -1,0 +1,15 @@
+
+public class Cliente extends Conta{
+	
+
+	private String nomeCliente;
+
+	public Cliente(Cliente cliente) {
+		super(cliente);
+	}
+	@Override
+	public void imprimirExtrato() {
+		
+	}
+
+}
